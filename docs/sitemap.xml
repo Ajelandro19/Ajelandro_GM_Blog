@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/</loc>
     <lastmod>2022-05-25T18:49:46-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/git/git/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/git/</loc>
     <lastmod>2022-05-25T18:49:46-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/git/lala/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/lala/</loc>
     <lastmod>2022-05-25T18:49:46-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/</loc>
     <lastmod>2022-05-25T18:49:46-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/arduino/primer-post/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/primer-post/</loc>
     <lastmod>2022-05-25T18:49:46-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/contacto/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/contacto/</loc>
     <lastmod>2022-05-25T18:46:16-05:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://ajelandro19.github.io/Ajelandro_GM_Blog/tags/</loc>
   </url>
 </urlset>

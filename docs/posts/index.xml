@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Alejandro GM</title>
-    <link>http://example.org/posts/</link>
+    <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/</link>
     <description>Recent content in Posts on Alejandro GM</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es</language>
-    <lastBuildDate>Wed, 25 May 2022 18:49:46 -0500</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 May 2022 18:49:46 -0500</lastBuildDate><atom:link href="https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git</title>
-      <link>http://example.org/posts/git/git/</link>
+      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/git/</link>
       <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
       
-      <guid>http://example.org/posts/git/git/</guid>
+      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/git/</guid>
       <description>Mi primer post</description>
     </item>
     
     <item>
       <title>lala</title>
-      <link>http://example.org/posts/git/lala/</link>
+      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/lala/</link>
       <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
       
-      <guid>http://example.org/posts/git/lala/</guid>
+      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/lala/</guid>
       <description>Mi primer post</description>
     </item>
     
     <item>
       <title>Primer Post</title>
-      <link>http://example.org/posts/arduino/primer-post/</link>
+      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/primer-post/</link>
       <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
       
-      <guid>http://example.org/posts/arduino/primer-post/</guid>
+      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/primer-post/</guid>
       <description>Mi primer post</description>
     </item>
     
