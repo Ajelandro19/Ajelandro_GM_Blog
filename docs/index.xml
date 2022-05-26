@@ -40,7 +40,7 @@
       <pubDate>Wed, 25 May 2022 18:46:16 -0500</pubDate>
       
       <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/sobre-m%C3%AD/</guid>
-      <description>  Alejandro GM    He/him 🙂 | Estudiante en Ingeniería en Mecatrónica 🖥️ | Editor de video 📹| Mexicano 🇲🇽  Editor de video de:   El video más reciente   </description>
+      <description> .videobox{ position: relative; overflow: hidden; padding-top: 56.25%; } .videobox iframe{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; }    Alejandro GM    He/him 🙂 | Estudiante en Ingeniería en Mecatrónica 🖥️ | Editor de video 📹| Sígueme en twitch | Mexicano 🇲🇽  Editor de video de:   El video más reciente   </description>
     </item>
     
   </channel>
