@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alejandro GM</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Alejandro GM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 25 May 2022 18:49:46 -0500</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>http://example.org/posts/git/git/</link>
+      <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
+      
+      <guid>http://example.org/posts/git/git/</guid>
+      <description>Mi primer post</description>
+    </item>
+    
+    <item>
+      <title>lala</title>
+      <link>http://example.org/posts/git/lala/</link>
+      <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
+      
+      <guid>http://example.org/posts/git/lala/</guid>
+      <description>Mi primer post</description>
+    </item>
+    
+    <item>
+      <title>Primer Post</title>
+      <link>http://example.org/posts/arduino/primer-post/</link>
+      <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
+      
+      <guid>http://example.org/posts/arduino/primer-post/</guid>
+      <description>Mi primer post</description>
+    </item>
+    
+    <item>
+      <title>Contacto</title>
+      <link>http://example.org/contacto/</link>
+      <pubDate>Wed, 25 May 2022 18:46:16 -0500</pubDate>
+      
+      <guid>http://example.org/contacto/</guid>
+      <description>Holiiiiiiiiiiiii</description>
+    </item>
+    
+  </channel>
+</rss>
