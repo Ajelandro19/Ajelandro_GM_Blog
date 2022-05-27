@@ -1,6 +1,6 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ Holaaaa .Ajelandro "-" " " | title }}"
 date: {{ .Date }}
-draft: true
+draft: flase
 ---
 
