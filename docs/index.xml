@@ -8,30 +8,12 @@
     <language>es</language>
     <lastBuildDate>Wed, 25 May 2022 18:49:46 -0500</lastBuildDate><atom:link href="https://ajelandro19.github.io/Ajelandro_GM_Blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Git</title>
-      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/git/</link>
+      <title>MultiWifi</title>
+      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/multiwifi/</link>
       <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
       
-      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/git/</guid>
-      <description>Mi primer post</description>
-    </item>
-    
-    <item>
-      <title>lala</title>
-      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/lala/</link>
-      <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
-      
-      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/git/lala/</guid>
-      <description>Mi primer post</description>
-    </item>
-    
-    <item>
-      <title>Primer Post</title>
-      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/primer-post/</link>
-      <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
-      
-      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/primer-post/</guid>
-      <description>Mi primer post</description>
+      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/multiwifi/</guid>
+      <description>.codebox { /* Below are styles for the codebox (not the code itself) */ border:1px solid black; background-color:gray; width:100%; overflow:hidden; padding:3%; } .codebox code { /* Styles in here affect the text of the codebox */ font-size:0.9em; /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */ } .image{ width: 100% }  Este ejemplo funciona para la placa de desarrollo NodeMCU ESP8266, el código se puede encontrar en los ejemplos de la IDE de Arduino al instalar el gestor de tarjetas ESP.</description>
     </item>
     
     <item>
@@ -41,16 +23,6 @@
       
       <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/sobre-m%C3%AD/</guid>
       <description> .videobox{ position: relative; overflow: hidden; padding-top: 56.25%; } .videobox iframe{ position: absolute; top: 0; left: 0; width: 100%; height: 100%; }    Alejandro GM    He/him 🙂 | Estudiante en Ingeniería en Mecatrónica 🖥️ | Editor de video 📹| Sígueme en twitch | Mexicano 🇲🇽  Editor de video de:   El video más reciente   </description>
-    </item>
-    
-    <item>
-      <title>elements</title>
-      <link>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/elements/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/elements/</guid>
-      <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
-Code Python def foo():  print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){  prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD;  # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
     </item>
     
   </channel>

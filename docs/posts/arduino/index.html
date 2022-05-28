@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arduino</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="https://ajelandro19.github.io/Ajelandro_GM_Blog/assets/css/main.css"/>
+    <link rel="canonical" href="https://ajelandro19.github.io/Ajelandro_GM_Blog/posts/arduino/">
+    <noscript><link rel="stylesheet" href="https://ajelandro19.github.io/Ajelandro_GM_Blog/assets/css/noscript.css"/></noscript>
+    <style>
+        :root{--site-background : url("https://ajelandro19.github.io/Ajelandro_GM_Blog/images/bg.jpg")};
+    </style> 
+    
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+
+
+<body class="is-preload">
+
+    
+        <div id="wrapper">
+
+            
+                <header id="header">
+                    <div class="logo">
+                        <a href="/">
+                            <span class="icon">
+                                <img src="../../images/arduino.png">
+                            </span>
+                        </a>
+                    </div>
+                    <div class="content">
+                        <div class="inner">
+                            <h1>Arduino</h1>
+                            
+                        </div>
+                    </div>
+                    <nav>
+                        <ul>
+                            
+                                
+                                    
+                                        <li>
+                                            <a href="#multiwifi">MultiWifi</a>
+                                        </li>
+                                    
+                                
+                            
+                        </ul>
+                    </nav>
+                </header>
+
+            
+                <div id="main">
+
+                    
+                        
+                            
+                                <article id="multiwifi">
+                                    <h2 class="major">MultiWifi</h2>
+                                    <span class="image main"><img src="" alt="" /></span>
+                                    <style>
+    .codebox {
+        /* Below are styles for the codebox (not the code itself) */
+        border:1px solid black;
+        background-color:gray;
+        width:100%;
+        overflow:hidden;    
+        padding:3%;
+    }
+    .codebox code {
+        /* Styles in here affect the text of the codebox */
+        font-size:0.9em;
+        /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+    }
+    .image{
+      width: 100%
+    }
+</style>
+<p>Este ejemplo funciona para la placa de desarrollo NodeMCU ESP8266, el código se puede encontrar en los ejemplos de la IDE de Arduino al instalar el gestor de tarjetas ESP.</p> 
+<div align="center">
+<img align="center" class="image" src="../../images/MultiWifi.gif" alt="ejemploArduino" />
+</div>
+<br>
+<p>
+  Después de hacer unos arreglos con la finalidad de encender el led integrado en la NodeMCU como indicador de que nuestra placa se ha conectado a internet, el código resulta de la siguiente manera.
+</p>
+<div class="codebox">
+  <code>
+    #include < ESP8266WiFi.h > <br>
+    #include < ESP8266WiFiMulti.h > <br>
+    #define LED_BUILTIN 2 <br><br>
+
+    ESP8266WiFiMulti wifiMulti; <br><br>
+    
+    void setup() {<br>
+      Serial.begin(115200);<br><br>
+
+      WiFi.mode(WIFI_STA);<br>
+      wifiMulti.addAP("ssid_from_AP_1", "your_password_for_AP_1");<br>
+      wifiMulti.addAP("ssid_from_AP_2", "your_password_for_AP_2");<br>
+      wifiMulti.addAP("ssid_from_AP_3", "your_password_for_AP_3");<br>
+      pinMode(LED_BUILTIN, OUTPUT);<br>
+      Serial.println("Connecting Wifi...");<br>
+      if (wifiMulti.run() == WL_CONNECTED) {<br>
+        Serial.println("");<br>
+        Serial.println("WiFi connected");<br>
+        Serial.println("IP address: ");<br>
+        Serial.println(WiFi.localIP());<br>
+        digitalWrite(LED_BUILTIN, LOW);<br>
+      }<br>
+    }<br><br>
+
+    void loop() {<br>
+      if (wifiMulti.run() != WL_CONNECTED) {<br>
+        Serial.println("WiFi not connected!");<br>
+        digitalWrite(LED_BUILTIN, LOW);<br>
+        delay(1000);<br>
+        digitalWrite(LED_BUILTIN, HIGH);<br>
+        delay(1000);<br>
+      }<br>
+      else{<br>
+        digitalWrite(LED_BUILTIN, LOW);<br>
+      }<br>
+    }<br>
+  </code>
+</div>
+
+Y así podremos conectarnos a la red de diferentes sitios sin necesidad de cargar un código modificado
+<br><br>
+<div align="center">
+  <img align="center" class="image" src="../../images/espmultiwifi.gif" alt="ejemploArduino" />
+</div>
+                                </article>
+                            
+                        
+                    
+
+                </div>
+
+                
+<footer id="footer">
+    <p class="copyright">&copy; Design: <a href="https://github.com/d-asnaghi">d-asnaghi</a> and <a href="https://html5up.net">HTML5 UP</a>.</p>
+    <a href="https://www.instagram.com/ajelandro_gm/?hl=es-la" target="blank"><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Ajelandro_gm" height="20" width="30"> </a><a href="https://twitter.com/Ajelandro_GM" target="blank"><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="Ajelandro_gm" height="20" width="30"></a><a href="https://www.twitch.tv/ajelandro_gm/profile" target="blank"><img align="right" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitch.svg" alt="Ajelandro_gm" height="20" width="30"> </a>
+</footer>
+
+        </div>
+
+    
+    <div id="bg"></div>
+
+</body>
+
+
+    
+    <script src=https://ajelandro19.github.io/Ajelandro_GM_Blog/assets/js/jquery.min.js></script>
+    <script src=https://ajelandro19.github.io/Ajelandro_GM_Blog/assets/js/browser.min.js></script>
+    <script src=https://ajelandro19.github.io/Ajelandro_GM_Blog/assets/js/breakpoints.min.js></script>
+    <script src=https://ajelandro19.github.io/Ajelandro_GM_Blog/assets/js/util.js></script>
+    <script src=https://ajelandro19.github.io/Ajelandro_GM_Blog/assets/js/main.js></script>
+   
+</html>
