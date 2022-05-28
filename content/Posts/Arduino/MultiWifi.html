@@ -1,0 +1,77 @@
+---
+title: "MultiWifi"
+date: 2022-05-25T18:49:46-05:00
+draft: false
+---
+<style>
+    .codebox {
+        /* Below are styles for the codebox (not the code itself) */
+        border:1px solid black;
+        background-color:gray;
+        width:100%;
+        overflow:hidden;    
+        padding:3%;
+    }
+    .codebox code {
+        /* Styles in here affect the text of the codebox */
+        font-size:0.9em;
+        /* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+    }
+    .image{
+      width: 100%
+    }
+</style>
+<p>Este ejemplo funciona para la placa de desarrollo NodeMCU ESP8266, el código se puede encontrar en los ejemplos de la IDE de Arduino al instalar el gestor de tarjetas ESP.</p> 
+<div align="center">
+<img align="center" class="image" src="../../images/MultiWifi.gif" alt="ejemploArduino" />
+</div>
+<br>
+<p>
+  Después de hacer unos arreglos con la finalidad de encender el led integrado en la NodeMCU como indicador de que nuestra placa se ha conectado a internet, el código resulta de la siguiente manera.
+</p>
+<div class="codebox">
+  <code>
+    #include < ESP8266WiFi.h > <br>
+    #include < ESP8266WiFiMulti.h > <br>
+    #define LED_BUILTIN 2 <br><br>
+
+    ESP8266WiFiMulti wifiMulti; <br><br>
+    
+    void setup() {<br>
+      Serial.begin(115200);<br><br>
+
+      WiFi.mode(WIFI_STA);<br>
+      wifiMulti.addAP("ssid_from_AP_1", "your_password_for_AP_1");<br>
+      wifiMulti.addAP("ssid_from_AP_2", "your_password_for_AP_2");<br>
+      wifiMulti.addAP("ssid_from_AP_3", "your_password_for_AP_3");<br>
+      pinMode(LED_BUILTIN, OUTPUT);<br>
+      Serial.println("Connecting Wifi...");<br>
+      if (wifiMulti.run() == WL_CONNECTED) {<br>
+        Serial.println("");<br>
+        Serial.println("WiFi connected");<br>
+        Serial.println("IP address: ");<br>
+        Serial.println(WiFi.localIP());<br>
+        digitalWrite(LED_BUILTIN, LOW);<br>
+      }<br>
+    }<br><br>
+
+    void loop() {<br>
+      if (wifiMulti.run() != WL_CONNECTED) {<br>
+        Serial.println("WiFi not connected!");<br>
+        digitalWrite(LED_BUILTIN, LOW);<br>
+        delay(1000);<br>
+        digitalWrite(LED_BUILTIN, HIGH);<br>
+        delay(1000);<br>
+      }<br>
+      else{<br>
+        digitalWrite(LED_BUILTIN, LOW);<br>
+      }<br>
+    }<br>
+  </code>
+</div>
+
+Y así podremos conectarnos a la red de diferentes sitios sin necesidad de cargar un código modificado
+<br><br>
+<div align="center">
+  <img align="center" class="image" src="../../images/espmultiwifi.gif" alt="ejemploArduino" />
+</div>
