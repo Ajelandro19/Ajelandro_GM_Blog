@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GIT on Alejandro GM</title>
+    <link>http://myblog.ajelandrogm.live/posts/git/</link>
+    <description>Recent content in GIT on Alejandro GM</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 25 May 2022 18:49:46 -0500</lastBuildDate><atom:link href="http://myblog.ajelandrogm.live/posts/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>http://myblog.ajelandrogm.live/posts/git/git/</link>
+      <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
+      
+      <guid>http://myblog.ajelandrogm.live/posts/git/git/</guid>
+      <description>Mi primer post</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://myblog.ajelandrogm.live/posts/git/gitkraken/</link>
+      <pubDate>Wed, 25 May 2022 18:49:46 -0500</pubDate>
+      
+      <guid>http://myblog.ajelandrogm.live/posts/git/gitkraken/</guid>
+      <description>Mi primer post</description>
+    </item>
+    
+  </channel>
+</rss>
