@@ -1,7 +1,7 @@
 ---
 title: "ESP32"
 date: 2023-01-05T13:21:46-05:00
-draft: false
+draft: true
 ---
 # Primeros pasos 
 
